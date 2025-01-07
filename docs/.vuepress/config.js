@@ -74,6 +74,7 @@ export default defineUserConfig({
         },
     }),
 
+    base: '/docs/',
     lang: 'zh-CN',
     title: '你好， Jazzy ！',
     description: '乱七八糟',
