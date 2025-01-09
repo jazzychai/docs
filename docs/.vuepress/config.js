@@ -29,8 +29,8 @@ export default defineUserConfig({
                 prefix: '/tech/',
                 children: [
                     {
-                        text: 'vue',
-                        link: '/vue/',
+                        text: '开源库',
+                        link: '/tech/opensource/',
                     },
                     {
                         text: 'vue2',
@@ -68,6 +68,19 @@ export default defineUserConfig({
                     link: '/tdoa/',
                     children: [
                         'index.md',
+                    ],
+                },
+            ],
+            '/tech/opensource/': [
+                {
+                    text: '开源库',
+                    prefix: '/tech/opensource/',
+                    link: '/tech/opensource/',
+                    children: [
+                        {
+                            text: 'AI-语音',
+                            link: '/tech/opensource/AI-Voice.md',
+                        },
                     ],
                 },
             ],
