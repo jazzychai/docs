@@ -11,30 +11,12 @@ export default defineUserConfig({
                 link: '/',
             },
             {
-                text: '工作',
-                prefix: '/work/',
-                children: [
-                    {
-                        text: '四方',
-                        link: '/sf/',
-                    },
-                    {
-                        text: '通达',
-                        link: '/tdoa/',
-                    },
-                ],
-            },
-            {
                 text: '技术',
                 prefix: '/tech/',
                 children: [
                     {
                         text: '开源库',
                         link: '/tech/opensource/',
-                    },
-                    {
-                        text: 'vue2',
-                        link: '/vue2/',
                     },
                 ],
             },
@@ -61,16 +43,6 @@ export default defineUserConfig({
                     ],
                 },
             ],
-            '/tdoa/': [
-                {
-                    text: '通达OA',
-                    prefix: '/tdoa/',
-                    link: '/tdoa/',
-                    children: [
-                        'index.md',
-                    ],
-                },
-            ],
             '/tech/opensource/': [
                 {
                     text: '开源库',
@@ -78,7 +50,11 @@ export default defineUserConfig({
                     link: '/tech/opensource/',
                     children: [
                         {
-                            text: 'AI-语音',
+                            text: 'AI-大语言模型',
+                            link: '/tech/opensource/AI-LLM.md',
+                        },
+                        {
+                            text: 'AI-语音处理',
                             link: '/tech/opensource/AI-Voice.md',
                         },
                     ],
