@@ -20,3 +20,10 @@ meta出品
 
 [https://github.com/meta-llama/llama](https://github.com/meta-llama/llama)  
 [https://www.llama.com/](https://www.llama.com/)
+
+### 教程
+
+#### LLMs-from-scratch
+从零开始构建LLM。
+
+[https://github.com/rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch)
