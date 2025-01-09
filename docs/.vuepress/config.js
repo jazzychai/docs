@@ -1,8 +1,11 @@
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress'
+import { nprogressPlugin } from '@vuepress/plugin-nprogress'
+
 
 export default defineUserConfig({
+    plugins: [nprogressPlugin()],
     bundler: viteBundler(),
     theme: defaultTheme({
         navbar: [
@@ -39,7 +42,6 @@ export default defineUserConfig({
                     prefix: '/',
                     link: '/',
                     children: [
-                        'index.md',
                     ],
                 },
             ],
@@ -49,14 +51,8 @@ export default defineUserConfig({
                     prefix: '/tech/opensource/',
                     link: '/tech/opensource/',
                     children: [
-                        {
-                            text: 'AI-大语言模型',
-                            link: '/tech/opensource/AI-LLM.md',
-                        },
-                        {
-                            text: 'AI-语音处理',
-                            link: '/tech/opensource/AI-Voice.md',
-                        },
+                        'AI-LLM.md',
+                        'AI-Voice.md',
                     ],
                 },
             ],
