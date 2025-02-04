@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.19" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme')
+      const systemDarkMode =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (userMode === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (userMode === 'dark' || systemDarkMode) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <title>你好， Jazzy ！</title><meta name="description" content="乱七八糟">
+    <link rel="preload" href="/docs/assets/style-TOoHn_se.css" as="style"><link rel="stylesheet" href="/docs/assets/style-TOoHn_se.css">
+    <link rel="modulepreload" href="/docs/assets/app-zTk1Tncf.js"><link rel="modulepreload" href="/docs/assets/404.html-DDCJMpjR.js">
+    <link rel="prefetch" href="/docs/assets/index.html-D0f5FV-2.js" as="script"><link rel="prefetch" href="/docs/assets/index.html-1ebLFKej.js" as="script"><link rel="prefetch" href="/docs/assets/AI-Image.html-BM23nq1-.js" as="script"><link rel="prefetch" href="/docs/assets/AI-LLM.html-Bz-bgnMX.js" as="script"><link rel="prefetch" href="/docs/assets/AI-Other.html-Dchb64Mg.js" as="script"><link rel="prefetch" href="/docs/assets/AI-Voice.html-DfoJ3TJ_.js" as="script"><link rel="prefetch" href="/docs/assets/index.html-CTwyoUW7.js" as="script"><link rel="prefetch" href="/docs/assets/setupDevtools-7MC2TMWH-CiTJcsib.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-8636ca9b><main class="page" data-v-8636ca9b><div vp-content data-v-8636ca9b><h1 data-v-8636ca9b>404</h1><blockquote data-v-8636ca9b>There&#39;s nothing here.</blockquote><a class="route-link" href="/docs/" data-v-8636ca9b>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/docs/assets/app-zTk1Tncf.js" defer></script>
+  </body>
+</html>
