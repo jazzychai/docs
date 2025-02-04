@@ -15,6 +15,13 @@ chatboxai是一个基于AI的聊天机器人,可以用于聊天、问答、翻�
 [https://chatboxai.app/](https://chatboxai.app/)
 
 ### 模型
+
+#### DeepSeek-R1
+国产开源
+
+[https://github.com/deepseek-ai/DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1)  
+[https://www.deepseek.com/](https://www.deepseek.com/)
+
 #### llama
 meta出品
 
