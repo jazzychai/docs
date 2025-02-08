@@ -53,8 +53,10 @@ export default defineUserConfig({
                     children: [
                         'AI-LLM.md',
                         'AI-Voice.md',
+                        'AI-Video.md',
                         'AI-Image.md',
-                        'AI-Other.md'
+                        'AI-Other.md',
+                        'Other.md'
                     ],
                 },
             ],
